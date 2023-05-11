@@ -1,0 +1,78 @@
+css
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar verticalmente */
+  max-width: 500px; /* Ancho máximo */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ancho completo */
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+  width: 100%; /* Ancho completo */
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  width: 100%; /* Ancho completo */
+  margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}

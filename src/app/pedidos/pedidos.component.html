@@ -1,0 +1,19 @@
+<form (submit)="onSubmit()">
+ <div>
+    <label>Número de orden:</label>
+    <input type="number" [(ngModel)]="orden.numeroOrden" name="numeroOrden" required>
+  </div>
+  <div>
+    <label>Cédula:</label>
+    <input type="text" [(ngModel)]="orden.cedula" name="cedula" required>
+  </div>
+  <div>
+    <label>Dirección:</label>
+    <input type="text" [(ngModel)]="orden.direccion" name="direccion" required>
+  </div>
+  <div>
+    <label>Total:</label>
+    <input type="number" [(ngModel)]="orden.total" name="total" required>
+  </div>
+  <button type="submit">Crear orden</button>
+</form>
